@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <title>Home decor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a9a759f2d8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div id="logo" class="pull-left">
+            <h1><a href="#intro" class="scrollto">HOME DECOR</a></h1>
+        </div>
+        <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                <li class="menu-active"><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li class="menu-has-children"><a href="">Home decor</a>
+                    <ul>
+                        <li><a href="livingroom.html">Living room</a></li>
+                        <li><a href="kitchen.html">Kitchen</a></li>
+                        <li><a href="bedroom.html">Bedroom</a></li>
+                        <li><a href="bathroom.html">Bathroom</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <header class="section-header">
+            <h3>Welcome</h3>
+            <p>If you have any questions, you can contact us here!</p>
+        </header>
+    </div>
+    <h2 class="text-center">Contact Us</h2>
+    <div class="errors"></div>
+    <form action="" class="contact-form" method="POST" id="contact-form">
+        <div class="form-group">
+            <input type="text" name="username" id="username" class="username form-control" placeholder="Name" value="">
+            <i class="fas fa-user"></i>
+            <span class="asterix">*</span>
+            <span class="cross">x</span>
+            <span class="verify"><i class="fas fa-check" aria-hidden="true"></i></span>
+            <div class="alert alert-danger custom-alert">
+                Your name has to be longer than 3 characters!
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="text" name="email" id="email" class=" email form-control" placeholder="Email" value="">
+            <i class="fas fa-envelope"></i>
+            <span class="asterix">*</span>
+            <span class="cross">x</span>
+            <span class="verify"><i class="fas fa-check" aria-hidden="true"></i></span>
+            <div class="alert alert-danger custom-alert">
+                Email can't be empty!
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="text" name="subject" id="subject" class="subject form-control" placeholder="Title" value="">
+            <i class="fas fa-pencil-alt"></i>
+            <span class="asterix">*</span>
+            <span class="cross">x</span>
+            <span class="verify"><i class="fas fa-check" aria-hidden="true"></i></span>
+            <div class="alert alert-danger custom-alert">
+                Title can't be empty!
+            </div>
+        </div>
+        <div class="form-group">
+            <textarea class=" message form-control" id="message" name="message" placeholder="Message"></textarea>
+            <i class="fas fa-inbox"></i>
+            <span class="asterix">*</span>
+            <span class="cross">x</span>
+            <span class="verify"><i class="fas fa-check" aria-hidden="true"></i></span>
+            <div class="alert alert-danger custom-alert">
+                Message has to be longer than <b>10</b> characters!
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Send" class="btn btn-success btn-block">
+            <i class="fas fa-paper-plane"></i>
+        </div>
+    </form>
+    <p id="successMessage" class="text-center"></p>
+    </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-info">
+                        <h3>HOME DECOR</h3>
+                        <p>If you want to make your old home your dream home, we are here to help you!</p>
+                    </div>
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><i class="fas fa-angle-double-right"></i> <a href="index.html">Home</a></li>
+                        <li><i class="fas fa-angle-double-right"></i> <a href="livingroom.html">Livingroom</a></li>
+                        <li><i class="fas fa-angle-double-right"></i> <a href="kitchen.html">Kitchen</a></li>
+                        <li><i class="fas fa-angle-double-right"></i> <a href="bedroom.html">Bedroom</a></li>
+                        <li><i class="fas fa-angle-double-right"></i> <a href="bathroom.html">Bathroom</a></li>
+                    </ul>
+                    <h4>Address</h4>
+                    <p>
+                        Jove Ilica 154 <br>
+                        Belgrade, 11000<br>
+                        Serbia <br>
+                        <strong>Telefon:</strong> +381 60 123 456<br>
+                        <strong>Email:</strong> homedecor@gmail.com<br>
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.twitter.com" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com" class="facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.google.com" class="google-plus"><i class="fab fa-google-plus"></i></a>
+                        <a href="https://www.linkedin.com" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="footer-q&a">
+                        <h4>Question</h4>
+                        <p>If you have any kind of question, contact us! Thank you!</p>
+                        <a href="contact.html">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong>HOME DECOR</strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                We are here for you <a href="index.html">Sanja Minja Joja</a> by | Home decor
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    <script src="js/jQuery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
